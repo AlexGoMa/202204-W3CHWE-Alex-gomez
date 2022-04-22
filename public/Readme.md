@@ -12,7 +12,6 @@
 -Muestra una mínima información del pokemon"
 -Muestra el botón de volver a la app
 
-
 ##Componente paginación (botones abajo de página)
 -Mostrar 2 botones (anterior/siguiente)
 -Mostrar número total de pokemon
