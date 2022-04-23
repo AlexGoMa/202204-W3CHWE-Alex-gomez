@@ -1,7 +1,5 @@
-// eslint-disable-next-line import/extensions
-import Component from "../Component.js";
-// eslint-disable-next-line import/extensions
-import PokemonComponent from "../PokemonComponent/PokemonComponent.js";
+import Component from "../Component";
+import PokemonComponent from "../PokemonComponent/PokemonComponent";
 
 class AppComponent extends Component {
   pokemons;
