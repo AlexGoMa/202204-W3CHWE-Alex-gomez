@@ -9,6 +9,7 @@ module.exports = {
     sourceType: "module",
   },
   rules: {
+    "import/extensions": "off",
     "no-plusplus": "off",
     "no-restricted-syntax": "off",
     "lines-between-class-members": [
