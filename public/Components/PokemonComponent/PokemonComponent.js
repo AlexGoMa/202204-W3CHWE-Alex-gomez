@@ -1,4 +1,5 @@
-import Component from "../Component";
+// eslint-disable-next-line import/extensions
+import Component from "../Component.js";
 
 class PokemonComponent extends Component {
   pokemon;
@@ -15,7 +16,7 @@ class PokemonComponent extends Component {
     <div class="pokemon__avatar-container">
       <img
         class="pokemon__avatar"
-        src="${this.pokemon.sprites.front_default}"
+        src="${this.pokemon.sprites.other.dream_world.front_default}"
         alt="Pokemon ${this.pokemon.name}"
       />
       <p class="pokemon__name">${this.pokemon.name}</p>
@@ -24,3 +25,4 @@ class PokemonComponent extends Component {
 }
 
 export default PokemonComponent;
+// this.pokemon.sprites.front_default

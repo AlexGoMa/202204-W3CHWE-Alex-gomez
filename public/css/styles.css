@@ -21,6 +21,10 @@
   width: 100px;
 }
 
+.pokemon__avatar {
+  width: 150px;
+}
+
 .pokemon_ul {
   list-style-type: none;
 }
