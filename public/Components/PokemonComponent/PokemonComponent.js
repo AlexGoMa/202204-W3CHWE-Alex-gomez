@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/extensions
 import Component from "../Component.js";
 
 class PokemonComponent extends Component {

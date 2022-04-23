@@ -1,5 +1,5 @@
-import AppComponent from "/Components/AppComponent/AppComponent.js";
-import PokemonComponent from "/Components/PokemonComponent/PokemonComponent.js";
+// eslint-disable-next-line import/extensions
+import AppComponent from "./Components/AppComponent/AppComponent.js";
 
 const mainContainer = document.querySelector(".app");
 
