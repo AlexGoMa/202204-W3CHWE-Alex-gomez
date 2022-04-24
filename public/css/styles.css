@@ -36,6 +36,10 @@ h1 {
   position: relative;
   left: 30px;
 }
+.pokemon__avatar:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+}
 
 .pokemon_ul {
   list-style-type: none;
