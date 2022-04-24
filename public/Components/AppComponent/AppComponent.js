@@ -15,7 +15,7 @@ class AppComponent extends Component {
     this.element.innerHTML = `
     <header class="main-header">
         <img src="../images/pokemon-logo.svg" alt="pokemon_logo">
-        <h1 class="main-title">Pokemon Challenge, gotta error type'em all</h1>
+        <h1 class="main-title">Pokemon Challenge, gotta type error'em all</h1>
       </header>
       <section class="controls">
       <input class="button__menu" type="button" value="Mis Pokemon"></input>                
