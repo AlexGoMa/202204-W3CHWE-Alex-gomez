@@ -28,6 +28,8 @@ h1 {
 .pokemon__avatar {
   width: 120px;
   height: 120px;
+  position: relative;
+  left: 20px;
 }
 
 .pokemon_ul {
@@ -39,14 +41,14 @@ h1 {
   grid-template-columns: 200px 200px 200px 200px;
   grid-template-rows: 200px 200px 200px 200px 200px;
   column-gap: 10px;
-  row-gap: 10px;
+  row-gap: 25px;
 }
 
 .pokemon_li {
   border: 1px solid black;
   border-radius: 60%;
   width: 200px;
-  background-color: firebrick;
+  background-color: rgb(216, 67, 67);
 }
 .pokemon__name {
   font-family: Rubik, "Franklin Gothic Medium", "Arial Narrow", Arial,
@@ -58,7 +60,13 @@ h1 {
   position: relative;
   margin: 0;
 }
-.button {
+.button_captura {
+  font-family: Rubik, "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  text-decoration: none;
+  width: 100%;
+}
+.button_detalle {
   font-family: Rubik, "Franklin Gothic Medium", "Arial Narrow", Arial,
     sans-serif;
   text-decoration: none;
