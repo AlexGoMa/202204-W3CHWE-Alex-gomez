@@ -16,7 +16,8 @@ class AppComponent extends Component {
     <header class="main-header">
         <h1 class="main-title">Pokemon Challenge, gotta error type'em all</h1>
       </header>
-      <section class="controls">                
+      <section class="controls">
+      <input class="button__menu" type="button" value="Almacén Pokemon"></input>                
       </section>
       <main class="main">
         <ul class="pokemon_ul">                        
