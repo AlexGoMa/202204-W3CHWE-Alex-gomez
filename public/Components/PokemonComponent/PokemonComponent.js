@@ -19,11 +19,10 @@ class PokemonComponent extends Component {
         alt="Pokemon ${this.pokemon.name}"
       />
       <p class="pokemon__name">${this.pokemon.name}</p>
-      <div><input type="button" class="button" value="Detalle" href=""></input></div>
-      </div><input type="button" class="button" value="Captura" href=""></input></div>
+      <div><input type="button" class="button_detalle" value="Detalle" href=""></input></div>
+      <div><input type="button" class="button_captura" value="Captura" href=""></input></div>
     </div>`;
   }
 }
 
 export default PokemonComponent;
-// this.pokemon.sprites.front_default
