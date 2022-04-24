@@ -2,7 +2,7 @@
 
 .container {
   background-color: #c2e7da;
-  width: 800px;
+  width: 840px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -36,8 +36,8 @@ h1 {
   justify-items: center;
   padding: 0;
   margin: 0;
-  grid-template-columns: 150px 150px 150px 150px 150px;
-  grid-template-rows: 200px 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px 200px 200px;
   column-gap: 10px;
   row-gap: 10px;
 }
@@ -45,6 +45,8 @@ h1 {
 .pokemon_li {
   border: 1px solid black;
   border-radius: 60%;
+  width: 200px;
+  background-color: firebrick;
 }
 .pokemon__name {
   font-family: Rubik, "Franklin Gothic Medium", "Arial Narrow", Arial,
